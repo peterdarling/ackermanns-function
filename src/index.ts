@@ -14,5 +14,5 @@ const ack = (m: number, n: number): number => {
 
 for (let i=0; i<6; i++)
     for (let j=0; j<6; j++)
-        console.log(`ackermanns (${i}, ${j})`, ack(i, j));
+        console.log(`ackermann (${i}, ${j})`, ack(i, j));
 
