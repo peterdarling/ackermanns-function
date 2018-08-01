@@ -1,0 +1,35 @@
+{
+  "name": "ackermanns-function",
+  "version": "0.0.1",
+  "description": "Ackermann's function",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petedarling/ackermanns-function.git"
+  },
+  "keywords": [
+    "blank",
+    "typescript"
+  ],
+  "author": "Pete Darling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterdarling/ackermanns-function/issues"
+  },
+  "homepage": "https://github.com/peterdarling/ackermanns-function#readme",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "build": "rimraf dist/ &&  node_modules/.bin/tsc -p tsconfig.json",
+    "build:watch": "rimraf dist/ && node_modules/.bin/tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.3",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "reflect-metadata": "^0.1.12"
+  }
+}

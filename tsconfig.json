@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "target": "es6",
+    "preserveSymlinks": true,
+    "outDir": "dist",
+    //"rootDir": "src",
+    "lib": [
+      "es2018"
+    ],
+    "typeRoots" : [
+      "./node_modules/@types",
+      "./typings"
+    ],
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
