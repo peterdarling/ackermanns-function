@@ -17,4 +17,5 @@ Examples:
     *Main> ack 3 9
     4093
     *Main> ack 4 1
+    65533
 -}
