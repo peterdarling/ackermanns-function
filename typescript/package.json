@@ -1,11 +1,11 @@
 {
-  "name": "ackermanns-function",
+  "name": "ackermann-function",
   "version": "0.0.1",
-  "description": "Ackermann's function",
+  "description": "Ackermann function",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petedarling/ackermanns-function.git"
+    "url": "git+https://github.com/petedarling/ackermann-function.git"
   },
   "keywords": [
     "blank",
@@ -14,9 +14,9 @@
   "author": "Pete Darling",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peterdarling/ackermanns-function/issues"
+    "url": "https://github.com/peterdarling/ackermann-function/issues"
   },
-  "homepage": "https://github.com/peterdarling/ackermanns-function#readme",
+  "homepage": "https://github.com/peterdarling/ackermann-function#readme",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "rimraf dist/ &&  node_modules/.bin/tsc -p tsconfig.json",

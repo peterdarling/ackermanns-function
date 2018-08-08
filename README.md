@@ -1,5 +1,5 @@
-# ackermanns-function
-Ackermann's function based on C version from Computerphile
+# ackermann-function
+Ackermann function based on C version as seen on Computerphile
 
 Refs:
 https://youtu.be/i7sm9dzFtEI
